@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'ProgettoSistemiDistribuiti'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_604A084FA24A49DBB1E1B6EBF294B064 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_032CA2DCA2D14D27947007076456FDA1 }}
