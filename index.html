@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portale Sportivo</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Collegamento al CSS per lo styling -->
+</head>
+<body>
+
+    <!-- Intestazione del portale -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#news">Notizie Sportive</a></li>
+                <li><a href="#posts">I Miei Post</a></li>
+                <li><a href="#contact">Contatti</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Sezione di benvenuto -->
+    <section id="hero">
+        <h1>Benvenuto nel Portale Sportivo!</h1>
+        <p>Rimani aggiornato con le ultime notizie e condividi i tuoi pensieri sugli eventi sportivi.</p>
+    </section>
+
+    <!-- Sezione per i post -->
+    <section id="posts">
+        <h2>I tuoi post</h2>
+        <form id="postForm">
+            <label for="title">Titolo:</label>
+            <input type="text" id="title" name="title" placeholder="Inserisci il titolo del post">
+            
+            <label for="content">Contenuto:</label>
+            <textarea id="content" name="content" placeholder="Scrivi qui il tuo post"></textarea>
+            
+            <button type="submit">Pubblica</button>
+        </form>
+
+        <!-- Area dove verranno visualizzati i post -->
+        <div id="postList">
+            <h3>Post recenti</h3>
+            <!-- Qui appariranno i post generati -->
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Portale Sportivo. Tutti i diritti riservati.</p>
+    </footer>
+
+    <script src="script.js"></script> <!-- Collegamento a un file JavaScript per le interazioni -->
+</body>
+</html>
+
